@@ -21,7 +21,7 @@ app.engine(
 // app.use('/routines', routines)
 
 app.get('/', (req, res) => {
-    res.render('./app-welcome')
+    res.render('index')
 })
 
 app.listen(app.get('port'), () => {
