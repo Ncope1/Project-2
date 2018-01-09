@@ -1,4 +1,4 @@
-const mongoose = require('./connection')
+const mongoose = require('mongoose')
 
 const RoutineSchema = new mongoose.Schema({
   title: String,
@@ -10,4 +10,4 @@ const RoutineSchema = new mongoose.Schema({
 
 const Routine = mongoose.model('Routine', RoutineSchema)
 
-module.exports = Routine
+module.exports = mongoose
