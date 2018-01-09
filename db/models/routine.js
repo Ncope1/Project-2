@@ -5,7 +5,7 @@ const RoutineSchema = new mongoose.Schema({
   category: String,
   duration: String,
   directions: String,
-  products: [string]
+  products: [array]
 })
 
 const Routine = mongoose.model('Routine', RoutineSchema)
