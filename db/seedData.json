@@ -1,0 +1,24 @@
+[
+    {
+      "title": "Proper Makeup Removal",
+      "products": ["makeup removal toilette", "oil free micellar water", "Cotton pads"],
+      "duration": "5 minutes",
+      "directions": "Using a makeup removal toilette or oil free micellar water, begin completely removing makeup including mascara"
+    },
+
+    {
+        "title": "Cleansing",
+        "products": ["Sulfate free cleanser", "Clarisonic", "Washcloth"],
+        "duration": "5 - 10 minutes",
+        "directions": "using sulfate free cleanser along with  a washcloth or Clarisonic, begin cleansing to remove build-up and leftover makeup"
+      },
+    {
+        "title": "After Cleanse Treatment",
+        "products": ["Cotton pads", "Mild toner", "Acne treatment", "Moisturizer of choice"],
+        "duration": "5 minutes",
+        "directions": "saturate cotton pads with mild toner and begin toning skin in circular motions to additionally remove what the cleansing process might have left behind. Follow that step by using your acne treatment of choice if needed, then follow up with a light moisturizer of choice"
+    }
+
+  ]
+
+

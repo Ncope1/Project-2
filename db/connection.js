@@ -1,4 +1,4 @@
-const mongoose = require('./models/routine')
+const mongoose = require('./models/routine_schema')
 
 mongoose.Promise = Promise
 

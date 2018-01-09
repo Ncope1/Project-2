@@ -2,10 +2,10 @@ const mongoose = require('mongoose')
 
 const RoutineSchema = new mongoose.Schema({
   title: String,
-  category: String,
+  products: Array,
   duration: String,
-  directions: String,
-  products: Array
+  directions: String
+  
 })
 
 const Routine = mongoose.model('Routine', RoutineSchema)
