@@ -8,6 +8,7 @@ const RoutineSchema = new mongoose.Schema({
   
 })
 
-const Routine = mongoose.model('Routine', RoutineSchema)
+mongoose.model('Routine', RoutineSchema)
+
 
 module.exports = mongoose
