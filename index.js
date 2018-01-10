@@ -19,7 +19,7 @@ app.engine(
 )
 
 app.use('/assets', express.static('public'))
-app.use('/', routines)
+app.use('/', RoutinesController)
 
 // app.get('/', (req, res) => {
 //     res.render('index')
