@@ -1,0 +1,19 @@
+{{!-- welcome landing page render --}}
+<h1 class = "center">Nightly Skincare Routines</h1>
+
+
+{{!-- <h2>{{routines.length}} routines</h2> --}}
+{{#each routines as |routine index|}}
+    <h3>
+    <a href="/routines/{{routine.title}}">{{routine.title}}</a>
+    </h3>
+{{/each}}
+
+<h3>Submit New Routine</h3>
+<form action="/routines" method="post">
+  <input type="text" name="routine[title]" placeholder="Title">
+  <input type="text" name="routine[products]" placeholder="Products">
+  <input type="text" name="routine[duration]" placeholder="Duration">
+  <input type="text" name="routine[directions]" placeholder="Directions">
+  <input type="submit" value="Add Routine">
+</form>
