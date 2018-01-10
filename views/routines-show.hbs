@@ -3,7 +3,7 @@
 {{else}}
 <h2>That routine couldn't be found!</h2>
 {{/if}}
-<h2>Update information</h2>
+<h5>Update information</h5>
 <form action="/routines/{{ routine.title }}?_method=put" method="post">
   <input type="text" name="routine[title]" value="{{ routine.title }}">
   <input type="text" name="routine[products]" value="{{ routine.products }}">
@@ -12,7 +12,7 @@
   <input type="submit" value="update">
 </form>
 
-<h2>Remove Routine</h2>
+<h5>Remove Routine</h5>
 <form method="post" action="/routines/{{ routine.title }}?_method=delete" type="submit">
 <button>Remove</button>
 </form>

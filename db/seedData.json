@@ -1,29 +1,22 @@
 [
     {
       "title": "Proper Makeup Removal",
-      "products": ["makeup removal toilette", "oil free micellar water", "Cotton pads"],
+      "products": ["makeup removal towelettes", "oil free micellar water", "Cotton pads"],
       "duration": "5 minutes",
-      "directions": "Using a makeup removal toilette or oil free micellar water, begin completely removing makeup including mascara"
+      "directions": "Using makeup removal towelettes or oil free micellar water with cotton pads, begin completely removing makeup including mascara. Perform this action as many times as necessary to completely remove makeup."
     },
     {
         "title": "Cleansing",
         "products": ["Sulfate free cleanser", "Clarisonic", "Washcloth"],
         "duration": "5 - 10 minutes",
-        "directions": "using sulfate free cleanser along with  a washcloth or Clarisonic, begin cleansing to remove build-up and leftover makeup"
+        "directions": "Using sulfate free cleanser along with  a washcloth or Clarisonic, begin cleansing to remove build-up and leftover makeup."
     },
     {
         "title": "After Cleanse Treatment",
         "products": ["Cotton pads", "Mild toner", "Acne treatment", "Moisturizer of choice"],
         "duration": "5 minutes",
-        "directions": "saturate cotton pads with mild toner and begin toning skin in circular motions to additionally remove what the cleansing process might have left behind. Follow that step by using your acne treatment of choice if needed, then follow up with a light moisturizer of choice"
-    },
-    {
-        "title": "DIY Detox Facial Mask",
-        "products": ["Aztec secret indian healing clay", "Activated charcoal capsules", "Raw honey", "Purified water"],
-        "duration": "15 - 20 minutes",
-        "directions": "In a non metal bowl with a non metal spoon, mix 2 tsp of Aztec secret indian healing clay, 3 capsules activated charcoal, 1/2 tsp of raw honey and 1 1/2 tsp water into a paste consistency and apply to skin avoiding eyes and nostrils. Rinse thoroughly with warm water after 15 minutes"
+        "directions": "Saturate cotton pads with mild toner and begin toning skin in circular motions to additionally remove what the cleansing process might have left behind. Follow that step by using your acne treatment of choice if needed, then follow up with a light moisturizer of choice."
     }
-
   ]
 
 
