@@ -22,6 +22,8 @@ The objective/approach of this project was to create a full-stack application. T
 * Mongoose
 * Handlebars
 * Materialize
+* Node
+* Heroku
 
 ## Dependencies Used
 * Body-parser
