@@ -22,7 +22,7 @@ app.engine(
     })
 )
 
-// app.use('/assets', express.static('public'))
+app.use('/assets', express.static('public'))
 app.use('/routines', RoutinesController)
 
 
