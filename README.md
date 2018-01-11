@@ -49,13 +49,13 @@ Users are able to access this AWESOME step-by-step skin care routine [link](http
 ## Contribution Guidelines
 I welcome any advice that will enhance my app and make my coding cleaner. Feel free to contribute via this [link](https://github.com/Ncope1/Project-2).
 
-### Authors
-
-* **Natalee Cope** - FabFem Skincare Routines - January 2018
-
 ## Resources used
 * [Materilize](http://materializecss.com/navbar.html)
 * [Codrops](https://tympanus.net/codrops/css_reference/background/)
 * [When President Exercise](https://git.generalassemb.ly/ga-wdi-exercises/whenpresident/tree/express-mongoose-solution)
 * [Book-e Backend Exercise](https://git.generalassemb.ly/ga-wdi-exercises/book-e-backend)
+
+### Authors
+
+* **Natalee Cope** - FabFem Skincare Routines - January 2018
 
