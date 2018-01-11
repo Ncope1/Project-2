@@ -1,5 +1,3 @@
-## Project 2: Family Cookbook Manager Scaffolding
-
 ## Process
 
 1. Create app Repo
