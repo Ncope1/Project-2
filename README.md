@@ -1,41 +1,61 @@
-# FabFem Skin Care!
-The objective of this project was to create a full-stack application. The main focus of this application is to provide a step-by-step breakdown of proper skin care routines.
+# FabFem Skincare!
+The objective/approach of this project was to create a full-stack application. The main focus of this application is to provide a step-by-step breakdown of at-home skincare routines mainly applicable to women who wear makeup.
 
 
 
 
 ## Brief example of application
-Please click this [link](https://raw.githubusercontent.com/Ncope1/Project-1/master/Screen%20Shot%202017-12-13%20at%209.35.02%20PM.png) for a screen shot of the rendered trivia image
+Please click this [link](https://github.com/Ncope1/Project-2/blob/master/planning/project2-readMe-screenshot.png?raw=true) for a screen shot of the rendered FabFem Skin Care Routines app.
 
 ## List of Features
-* One question and a set of answer options are displayed one at a time when the page renders
+* Users click "FabFem Skincare!" link to access the full application.
 
-* Trivia progresses to the next page when an answer option is selected
+* Users are able to click "Proper Makeup Removal", "Cleansing" and/or "After Cleanse Treatment" to read skincare routines that have already been added to the application.
 
-* Once all questions have been answered, “Game Over” is displayed on the final page along with the user’s score
+* Beneath the already available routine links ("Proper Makeup Removal", "Cleansing" and "After Cleanse Treatment") users are then able to create additional skincare routines by completing and submitting the "Create New Routine" form. 
+
+* Once one of the already created routine links are clicked, the user is then taken to a page which displays the complete instructions corresponding to that particular routine. They are also able to update or remove this specific routine from this area of the application. 
+
+* To view all of the active routines within the application, users are able to click the "Routines" button on the nav bar.
+
+* to return the initial landing page of the application, users are able to click the "Home" button on the nav bar.
+
 
 ## List of Technologies Used
-* HTML
+* Express
+* Mongoose
+* Handlebars
+* Materialize
 
-* CSS
+## Dependencies Used
+* Body-parser
+* Express
+* Express-handlebars
+* Method-override
+* Mongoose
+* Nodemon
 
-* Vanilla JavaScript
 
 ## Installation Instructions
-Users are able to access this trivia via their web browser by clicking this [link](https://ncope1.github.io/Project-1/)
+Users are able to access this AWESOME step-by-step skin care routine [link](https://project-2-nc.herokuapp.com/)
+
+## Reflection
+* I decided to do this type of project, because I wear makeup on a daily basis, which can cause skin issues if a proper skincare routine isn't adhered to.
+* Ultimately, I plan on adding additional features to this application which will categorize the skincare routines based on skin types (i.e., oily, normal, combination or dry) and skin conditions (i.e., sensitive, vitiligo, eczema, rosacea etc.)
+* Routing and the Heroku deployment were the most difficult of this project
+* Some of the unexpected obstacles that I faced during this project are, even though I added a Procfile and included the necessary information, I was still unable to deploy my app to Heroku because Heroku bypassed the Procfile and required a key value of "start" in the package.json. I also had to change the way in which each routine displayed on the app in order to simplify the routing issues I was experiencing. 
+
 
 ## Contribution Guidelines
-I welcome any advice that will enhance my app and make my coding cleaner. Feel free to contribute via this [link](https://github.com/Ncope1/Project-1).
+I welcome any advice that will enhance my app and make my coding cleaner. Feel free to contribute via this [link](https://github.com/Ncope1/Project-2).
 
 ### Authors
 
-* **Natalee Cope** - Queen Bey Trivia - December 2017
+* **Natalee Cope** - FabFem Skincare Routines - January 2018
 
-### Acknowledgments
+## Resources used
+* [Materilize](http://materializecss.com/navbar.html)
+* [Codrops](https://tympanus.net/codrops/css_reference/background/)
+* [When President Exercise](https://git.generalassemb.ly/ga-wdi-exercises/whenpresident/tree/express-mongoose-solution)
+* [Book-e Backend Exercise](https://git.generalassemb.ly/ga-wdi-exercises/book-e-backend)
 
-I received guidance from online resources as well as my peers. Please see below for linked resources.
-* [Stack Overflow](https://stackoverflow.com/questions/18546038/store-javascript-variable-into-array)
-* [Free Code Camp](https://www.freecodecamp.org/challenges/store-multiple-values-in-one-variable-using-javascript-arrays)
-
-
-Thanks to all of my WDI-20 instructors and peers for your guidance in helping me to figure out my errors.
