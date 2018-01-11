@@ -35,7 +35,7 @@ The objective/approach of this project was to create a full-stack application. T
 
 
 ## Installation Instructions
-Users are able to access this AWESOME step-by-step skin care routine [link](https://project-2-nc.herokuapp.com/)
+Users are able to access this AWESOME step-by-step skin care routine application via this [link](https://project-2-nc.herokuapp.com/)
 
 ## Reflection
 * I decided to do this type of project, because I wear makeup on a daily basis, which can cause skin issues if a proper skincare routine isn't adhered to.
