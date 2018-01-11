@@ -76,4 +76,4 @@ Your project is due on **Thursday, Jan 11th at 2:00pm**. Create an issue on [the
 
 
 ## ERD
-![ERD](https://github.com/Ncope1/Project-2/blob/master/planning/ncope-project2-ERD.jpg "ERD")
+![ERD](https://github.com/Ncope1/Project-2/blob/master/planning/ncope-project2-ERD.jpg?raw=true "ERD")
