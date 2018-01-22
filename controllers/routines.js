@@ -5,9 +5,9 @@ const Routine = mongoose.model('Routine')
 
 router.get('/', (req, res) => {
 	Routine.find({})
-	  .then((routines) => {
-		res.render('routines-index', { routines: routines })
-	  })
+	  .then (routines => 
+		res.json({ routines: routines }))
+	  
   })
   
 router.get('/:title', (req, res) => {
