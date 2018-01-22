@@ -1,5 +1,5 @@
 const express = require('express')
-const hbs     = require('express-handlebars')
+// const hbs     = require('express-handlebars')
 const app     = express()
 const RoutinesController = require('./controllers/routines')
 const bodyParser = require('body-parser')
@@ -10,19 +10,19 @@ app.set('port', process.env.PORT || 4001)
 app.use(bodyParser.urlencoded({ extended: true }))
 app.use(methodOverride('_method'))
 
-app.set('view engine', 'hbs')
+// app.set('view engine', 'hbs')
 
-app.engine(
-    '.hbs',
-    hbs({
-        extname: '.hbs',
-        partialsDir: 'views/',
-        layoutsDir: 'views/',
-        defaultLayout: 'layout'
-    })
-)
+// app.engine(
+//     '.hbs',
+//     hbs({
+//         extname: '.hbs',
+//         partialsDir: 'views/',
+//         layoutsDir: 'views/',
+//         defaultLayout: 'layout'
+//     })
+// )
 
-app.use('/assets', express.static('public'))
+// app.use('/assets', express.static('public'))
 app.use('/routines', RoutinesController)
 
 
