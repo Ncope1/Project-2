@@ -1,7 +1,7 @@
 # FabFem Skincare!
 The objective/approach of this project was to create a full-stack application. The main focus of this application is to provide a step-by-step breakdown of at-home skincare routines mainly applicable to women who wear makeup.
 
-![alt text](https://github.com/Ncope1/Project-2/blob/master/planning/project2-readMe-screenshot.png?raw=true "project2 screenshot")
+![alt text](https://raw.githubusercontent.com/Ncope1/Project-2/master/planning/project2-screenshot.png "project2 screenshot")
 
 ## List of Features
 * Users click "FabFem Skincare!" link to access the full application.
