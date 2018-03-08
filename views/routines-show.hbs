@@ -8,7 +8,7 @@
   <input type="text" class="purple-text" name="routine[title]" value="{{ routine.title }}">
   <input type="text" class="purple-text" name="routine[products]" value="{{ routine.products }}">
   <input type="text" class="purple-text" name="routine[duration]" value="{{ routine.duration }}">
-  <textarea class="purple-text materialize-textarea" name="routine[directions]" value="{{ routine.directions }}"></textarea>
+  <input type="text" class="purple-text" name="routine[directions]" value="{{ routine.directions }}">
   <input type="submit" value="update">
 </form>
 
@@ -22,16 +22,17 @@
         <div class="input-field col s6">
           <input id="last_name" type="text" class="validate">
           <label for="last_name">Last Name</label>
+           </div>
         </div> --}}
-        <div class="input-field col s12">
+        {{!-- <div class="input-field col s12">
           <input id="directions" value="{{ routine.directions }}">
           <label for="directions">Directions</label>
         </div>
-      </div>
+
     </form>
-    </div>
+    </div> --}}
 <br>
 <h4 class="purple-text">Remove Routine</h4>
-<form method="post" action="/routines/{{ routine.title }}?_method=delete" type="submit">
-<button>Remove</button>
+<form class="deleteForm" method="post" action="/routines/{{ routine.title }}?_method=delete">
+<input class="deleteButton" type="submit" value="Remove">
 </form>
